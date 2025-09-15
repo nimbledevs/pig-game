@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    height:100vh ;                          
+    background-image: linear-gradient(45deg, #bf2e34,#753682);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.first-player-cont{
+    width: 400px;
+    height:450px;
+    background-color: #d2a6b0;
+    text-align: center;
+   
+}
+.second-player-cont{
+    width: 400px;
+    height:450px;
+    background-color: #b16f8d;
+    text-align: center;
+   
+}
+.both-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+.Roll-dice,.hold,.dice,.new-game{
+    position: absolute;
+    
+}
+.new-game{
+    top:10%;
+}
+.dice img{
+    width: 50px;
+    height: 50px;
+}
+.Roll-dice{
+    top: 75%;
+}
+.hold{
+    top: 85%;
+}
