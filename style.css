@@ -10,20 +10,18 @@ body{
     display: flex;
     align-items: center;
 }
-.first-player-cont{
+.first-player-cont,.second-player-cont{
     width: 400px;
     height:450px;
-    background-color: #d2a6b0;
     text-align: center;
-   
+}
+.first-player-cont{  
+    background-color: #d2a6b0; 
 }
 .second-player-cont{
-    width: 400px;
-    height:450px;
     background-color: #b16f8d;
-    text-align: center;
-   
 }
+
 .both-player {
     display: flex;
     align-items: center;
@@ -34,16 +32,51 @@ body{
     position: absolute;
     
 }
-.new-game{
-    top:10%;
+.new-game,.hold,.Roll-dice{
+    top: 10%;
+    padding: 8px 15px;
+    border-radius: 17px;
+    font-size: 13px;
+    border: 0px;
 }
-.dice img{
+img.dice {
     width: 50px;
     height: 50px;
 }
 .Roll-dice{
     top: 75%;
-}
+}  
 .hold{
     top: 85%;
+}
+
+.currentscore{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+.currentScoreInner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #a3284a;
+    width: fit-content;
+    padding: 20px 40px;
+    border-radius: 5px ;
+    color: #fff;
+    
+}
+h2{
+    padding-top:70px;
+    font-size:40px;
+    text-transform: uppercase;
+}
+p.score{
+    font-size:35px;
+    color:#a3284a;
+    padding-top:20px;
+}
+.hidden{
+    display: none;
 }
